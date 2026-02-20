@@ -1,1 +1,9 @@
-results
+# Robot Framework output files
+results/
+
+# VS Code settings
+.vscode/
+
+# Python cache (ถ้ามี)
+__pycache__/
+*.py[cod]
