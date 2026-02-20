@@ -68,6 +68,18 @@ Scenario: Single False - Missing Email
     Click Submit
     Check Field Status    ${XPATH_MAIL}     invalid
 
+Scenario: Single False - Invalid Email Format
+    [Documentation]    ตรวจสอบกรณีกรอก email ผิด (Require Field)
+    [Tags]    Bad Case
+    Open Booking Page
+    Input Guest Information    ${MY_FNAME}    ${MY_LNAME}    ${MY_PHONE}    ${WRONG_EMAIL}
+    Select Number Of Adults    2
+    Choose Pet Option          No
+    Input Notes                Test Note
+    Accept Terms
+    Click Submit
+    Check Field Status    ${XPATH_MAIL}     invalid
+
 Scenario: Single False - Missing Number Of Adults
     [Documentation]    ตรวจสอบกรณีไม่เลือกจำนวนผู้ใหญ่ (Require Field)
     [Tags]    Bad Case

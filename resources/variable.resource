@@ -8,6 +8,7 @@ ${MY_FNAME}         Nattarat
 ${MY_LNAME}         Samartkit
 ${MY_PHONE}         0812345678
 ${MY_EMAIL}         kwan@chula.com
+${WRONG_EMAIL}      kwan@chula
 
 # Locators (XPaths)
 ${XPATH_FNAME}      //*[@id='input_comp-lt33fcq41']
