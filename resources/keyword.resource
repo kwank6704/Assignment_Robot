@@ -29,6 +29,10 @@ Choose Pet Option
     [Arguments]    ${option}
     Click Element    xpath=//label[contains(.,'${option}')]
 
+Input Notes
+    [Arguments]    ${notes}
+    Input Text    //*[@id='input_comp-lt33fct3']    ${notes}
+
 Accept Terms
     Click Element    xpath=//label[contains(., 'I accept terms & conditions')]
 

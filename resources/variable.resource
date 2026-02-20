@@ -16,4 +16,5 @@ ${XPATH_TEL}        //*[@id='input_comp-lt33fcsi1']
 ${XPATH_MAIL}       //*[@id='input_comp-lt33fcsf1']
 ${XPATH_SUBMIT}     //*[@class='uDW_Qe wixui-button PlZyDq']
 ${XPATH_LISTBOX}    xpath=//div[@role="listbox"]
+${XPATH_ACCEPT_TERMS}     //*[@id="comp-ltubl84u"]/input
 ${ID_ADULTS_DROP}   id=collection_comp-lt33fcsl1
