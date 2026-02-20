@@ -4,6 +4,6 @@ results/
 # VS Code settings
 .vscode/
 
-# Python cache (ถ้ามี)
+# Python cache
 __pycache__/
 *.py[cod]
